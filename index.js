@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
     }
 
     // LEMBRE-SE DE COLOCAR SUA CHAVE DO WEATHERAPI AQUI
-    const WEATHER_API_KEY = 'SUA_CHAVE_AQUI'; 
+    const WEATHER_API_KEY = 'fe2850fba5e747f0921175505261607'; 
 
     try {
         const url = `https://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${encodeURIComponent(cidade)}&lang=pt`;
